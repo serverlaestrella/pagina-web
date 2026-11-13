@@ -1,0 +1,68 @@
+SERVER LAESTRELLA — LANDING PAGE + DOCUMENTOS LEGALES (BORRADOR)
+
+Archivos principales:
+- index.html, styles.css, script.js
+- img/logoServerLE.jpg
+- img/sobreMi.jpg (fotografía para la sección “Sobre mí”)
+- cotizador/index.html (coloca aquí tu aplicación de cotizador)
+- guardar_contacto.php
+- database.sql
+- legal/terminos.html
+- legal/privacidad.html
+- legal/cookies.html
+- legal/reembolsos.html
+
+INSTALACIÓN LOCAL
+1. Copia la carpeta en C:\xampp\htdocs\server_laestrella_landing
+2. En HeidiSQL, ejecuta database.sql en tu MySQL/MariaDB local.
+3. Revisa host, nombre de BD, usuario y contraseña en guardar_contacto.php.
+4. Inicia Apache y MySQL desde XAMPP.
+5. Copia el index.html de tu cotizador dentro de la carpeta cotizador, conservando allí sus archivos dependientes. El botón “Solicitar cotización” abre cotizador/index.html.
+6. Abre http://localhost/server_laestrella_landing/
+7. Envía un formulario de prueba y comprueba prospectos y aceptaciones_legales en HeidiSQL.
+
+CONSENTIMIENTO Y TRAZABILIDAD
+- El formulario ya no solicita número de celular ni WhatsApp. Contiene dos casillas separadas y obligatorias: términos y privacidad.
+- El servidor valida ambas casillas; no se confía solo en JavaScript.
+- Guarda dos eventos independientes en aceptaciones_legales con versión del documento,
+  fecha/hora UTC, IP y user-agent.
+- IP y user-agent también son datos potencialmente personales: restringe acceso,
+  documenta finalidad y retención, y no los publiques.
+- Para evidencia más sólida, conserva copias/versiones inmutables de los documentos
+  publicados, limita privilegios de la BD, usa respaldos protegidos y registra cambios
+  de administración. Este mecanismo no certifica identidad ni garantiza admisibilidad.
+
+COOKIES
+- No se ha añadido analítica ni publicidad.
+- Se retiró la fuente Google Fonts externa para reducir solicitudes a terceros.
+- PHP puede crear una cookie de sesión estrictamente necesaria según la configuración.
+- Antes de publicar, inspecciona cookies, local storage y solicitudes de red en navegador.
+  Si agregas analítica, píxeles, vídeos embebidos, mapas o herramientas de seguimiento,
+  revisa su tratamiento y bloquea las tecnologías no esenciales hasta obtener el
+  consentimiento válido cuando sea exigible.
+
+ANTES DE PUBLICAR: OBLIGATORIO REVISAR
+1. Ya se completaron los datos proporcionados: Hans Wunder Vargas; Servicios Tecnicos
+   Informaticos La Estrella, denominado Server LaEstrella; domicilio en Barrio Santa Ines,
+   Trinidad, Beni; correo serverlaestrella@gmail.com; NIT 4168207017. Confirma que todos
+   coincidan exactamente con los registros vigentes antes de publicar.
+2. Aún debes completar los campos pendientes de proveedores y plazos de retención, además
+   de definir el plazo operativo de reembolsos. El celular/WhatsApp informado es +591 60202107.
+3. Pide revisión a un abogado boliviano sobre Ley 164, DS 1793, Ley 453 y cualquier
+   norma aplicable a la actividad real. No se garantiza cumplimiento legal integral.
+4. Define contratos de cada servicio con alcance, precio, hitos, propiedad intelectual,
+   licencias, soporte, cancelación y reembolsos.
+5. Comprueba derechos de uso de logo, tipografías, imágenes, iconos, textos, código,
+   plantillas y recursos de terceros. El usuario facilitó el logo, pero eso no verifica
+   por sí solo su titularidad o licencia. La maqueta del portafolio está identificada
+   como ilustración conceptual; sustitúyela por proyectos reales autorizados.
+6. En producción: HTTPS, secretos fuera del código/repo, usuario MySQL con privilegios
+   mínimos (no root), protección anti-spam/rate limiting, CSRF según arquitectura,
+   copias de seguridad, actualizaciones, política de incidentes y acceso restringido.
+7. Define plazos de conservación concretos y un proceso para responder solicitudes de
+   acceso/corrección/eliminación/revocación.
+8. La política de reembolsos tiene campos pendientes y debe armonizarse con tu contrato.
+9. AGETIC no debe asumirse automáticamente como organismo que inspeccionará cualquier
+   landing privada. Verifica qué autoridad y obligaciones aplican a tu actividad concreta.
+
+El texto legal incluido es una base de trabajo, no asesoramiento jurídico ni certificación.

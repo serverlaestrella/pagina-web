@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Server LaEstrella: diseño web profesional, desarrollo de aplicaciones web a medida y consultoría tecnológica para empresas y emprendedores."
+    />
+    <meta name="theme-color" content="#25070b" />
+    <title>Server LaEstrella | Soluciones digitales para tu negocio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="Server LaEstrella, inicio">
+          <img src="img/logoServerLE.jpg" alt="Logo de Server LaEstrella" />
+          <span>Server <strong>LaEstrella</strong></span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="mainNav"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="mainNav" class="main-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Cómo trabajamos</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#contacto">Contacto</a>
+          <a
+            class="nav-cta"
+            href="https://serverlaestrella.github.io/cotizador-web/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Solicitar cotización</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="inicio">
+        <div class="hero-glow"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="eyebrow-dot"></span> Tecnología al servicio de tu
+              negocio
+            </p>
+            <h1>Convertimos tus ideas en <span>soluciones digitales</span>.</h1>
+            <p class="hero-lead">
+              Diseño web, aplicaciones web a medida y consultoría tecnológica
+              para ayudarte a trabajar mejor, proyectar confianza y crecer con
+              tecnología.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contacto"
+                >Cuéntame tu proyecto <span aria-hidden="true">↗</span></a
+              >
+              <a class="button button-ghost" href="#servicios"
+                >Explorar servicios</a
+              >
+            </div>
+            <div class="trust-note">
+              <span class="trust-star">★</span
+              ><span
+                >Atención personalizada · Soluciones adaptadas a tus
+                necesidades</span
+              >
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="logo-frame">
+              <img
+                src="img/logoServerLE.jpg"
+                alt="Emblema de Server LaEstrella"
+              />
+            </div>
+            <div class="floating-chip chip-top">
+              <span class="chip-icon">⌘</span
+              ><span
+                ><b>Desarrollo web</b><small>Ideas hechas realidad</small></span
+              >
+            </div>
+            <div class="floating-chip chip-bottom">
+              <span class="chip-icon">✦</span
+              ><span
+                ><b>Soluciones a medida</b
+                ><small>Enfocadas en tu negocio</small></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="problem-strip">
+        <div class="container problem-inner">
+          <div>
+            <span class="section-kicker">¿Te resulta familiar?</span>
+            <h2>
+              La tecnología debería simplificar tu trabajo, no complicarlo.
+            </h2>
+          </div>
+          <div class="problem-list">
+            <p>
+              <span>✓</span> Tu negocio necesita una presencia web profesional.
+            </p>
+            <p>
+              <span>✓</span> Repites tareas manuales que podrían optimizarse.
+            </p>
+            <p>
+              <span>✓</span> Necesitas un sistema que se adapte a tus procesos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="servicios">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Qué hacemos</p>
+            <h2>
+              Soluciones digitales pensadas para
+              <span>resolver necesidades reales</span>
+            </h2>
+            <p>
+              Elige el servicio que necesitas o conversemos para encontrar el
+              mejor camino.
+            </p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-icon">◈</div>
+              <p class="card-number">01 / PRESENCIA DIGITAL</p>
+              <h3>Diseño web</h3>
+              <p>
+                Landing pages y sitios corporativos modernos, adaptables a
+                móviles y enfocados en presentar tu negocio con claridad.
+              </p>
+              <a
+                class="text-link service-link"
+                href="#contacto"
+                data-service="Diseño web"
+                >Quiero una página web <span>→</span></a
+              >
+            </article>
+            <article class="service-card featured">
+              <div class="service-icon">⌘</div>
+              <p class="card-number">02 / AUTOMATIZACIÓN</p>
+              <h3>Aplicaciones web a medida</h3>
+              <p>
+                Sistemas ajustados a tus procesos para organizar información,
+                reducir tareas repetitivas y apoyar la gestión de tu negocio.
+              </p>
+              <a
+                class="text-link service-link"
+                href="#contacto"
+                data-service="Desarrollo de aplicaciones web a medida"
+                >Quiero un sistema a medida <span>→</span></a
+              >
+            </article>
+            <article class="service-card">
+              <div class="service-icon">✧</div>
+              <p class="card-number">03 / ASESORAMIENTO</p>
+              <h3>Consultoría tecnológica</h3>
+              <p>
+                Orientación para evaluar herramientas, mejorar procesos y tomar
+                decisiones tecnológicas alineadas con tus objetivos.
+              </p>
+              <a
+                class="text-link service-link"
+                href="#contacto"
+                data-service="Consultoría tecnológica"
+                >Necesito asesoramiento <span>→</span></a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section portfolio-section" id="portafolio">
+        <div class="container portfolio-grid">
+          <div>
+            <p class="section-kicker">Trabajo con propósito</p>
+            <h2>Tu proyecto merece una solución clara y bien pensada.</h2>
+            <p class="muted">
+              Cada negocio tiene necesidades distintas. Por eso, antes de
+              proponer una solución, buscamos comprender el problema, los
+              usuarios y el resultado que quieres conseguir.
+            </p>
+            <a class="button button-primary" href="#contacto"
+              >Hablemos de tu proyecto <span>↗</span></a
+            >
+          </div>
+          <div class="portfolio-panel">
+            <div class="panel-top">
+              <span></span><span></span><span></span
+              ><small>PROYECTO DIGITAL</small>
+            </div>
+            <div class="panel-content">
+              <div class="panel-line short"></div>
+              <div class="panel-line long"></div>
+              <div class="panel-cards">
+                <div><b>01</b><span>Analizar</span></div>
+                <div><b>02</b><span>Diseñar</span></div>
+                <div><b>03</b><span>Desarrollar</span></div>
+              </div>
+              <div class="panel-line medium"></div>
+              <div class="panel-line long dim"></div>
+            </div>
+            <p class="panel-caption">
+              Ilustración conceptual · No representa un proyecto de cliente
+              específico.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" id="proceso">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Un proceso sencillo</p>
+            <h2>De la necesidad a la solución</h2>
+            <p>
+              Trabajamos con pasos claros para que sepas qué esperar en cada
+              etapa.
+            </p>
+          </div>
+          <div class="process-grid">
+            <article>
+              <span>01</span>
+              <h3>Conversamos</h3>
+              <p>
+                Conocemos tu necesidad, tus objetivos y el contexto de tu
+                negocio.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Proponemos</h3>
+              <p>
+                Definimos alcance, funcionalidades, plazos y una cotización
+                clara.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Desarrollamos</h3>
+              <p>Construimos y revisamos la solución según lo acordado.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Entregamos</h3>
+              <p>
+                Validamos el resultado y coordinamos la entrega y el soporte
+                aplicable.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="sobre-mi">
+        <div class="container about-grid">
+          <div class="about-mark">
+            <img
+              src="img/sobreMi.jpg"
+              alt="Fotografía de Hans Wunder, fundador de Server LaEstrella"
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <p class="section-kicker">Detrás de Server LaEstrella</p>
+            <h2>Soy Hans Wunder, Ingeniero de Sistemas.</h2>
+            <p class="muted">
+              Apoyo a empresas, instituciones y emprendedores en el uso de la
+              tecnología mediante diseño web, desarrollo de aplicaciones web y
+              consultoría. Mi enfoque es entender primero la necesidad y después
+              proponer una solución práctica y adecuada.
+            </p>
+            <div class="values">
+              <span>✓ Enfoque en tus objetivos</span
+              ><span>✓ Comunicación clara</span
+              ><span>✓ Soluciones adaptadas</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="preguntas">
+        <div class="container faq-grid">
+          <div>
+            <p class="section-kicker">Antes de empezar</p>
+            <h2>Preguntas frecuentes</h2>
+            <p class="muted">
+              ¿Tienes otra consulta? Envíamela mediante el formulario.
+            </p>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>¿Cuánto cuesta una página web o un sistema?</summary>
+              <p>
+                El precio depende del alcance, las funcionalidades y los
+                contenidos. Cuéntame qué necesitas para preparar una cotización
+                ajustada a tu proyecto.
+              </p>
+            </details>
+            <details>
+              <summary>¿Cuánto tiempo tarda el desarrollo?</summary>
+              <p>
+                El plazo se determina según la complejidad y el alcance
+                acordado. Se define antes de iniciar el trabajo.
+              </p>
+            </details>
+            <details>
+              <summary>¿Puedo solicitar cambios o nuevas funciones?</summary>
+              <p>
+                Sí. Los cambios y ampliaciones se evalúan según el alcance
+                original y se acuerdan antes de implementarlos.
+              </p>
+            </details>
+            <details>
+              <summary>¿Ofreces mantenimiento y soporte?</summary>
+              <p>
+                Podemos definir el soporte o mantenimiento que requiera el
+                proyecto y dejar sus condiciones establecidas en la propuesta.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contacto">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="section-kicker">Hablemos de tu proyecto</p>
+            <h2>
+              Cuéntame qué necesitas. <span>Busquemos una solución.</span>
+            </h2>
+            <p>
+              Completa el formulario y me pondré en contacto contigo por el
+              medio que indiques.
+            </p>
+            <div class="contact-promise">
+              <span>✦</span>
+              <p>
+                <b>Una conversación inicial</b><br /><small
+                  >Revisaremos tu necesidad para determinar los siguientes
+                  pasos.</small
+                >
+              </p>
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formsubmit.co/serverlaestrella@gmail.com"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Nueva consulta web - Server LaEstrella"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" style="display: none" />
+
+            <div class="form-row">
+              <label for="nombre">Nombre completo *</label
+              ><input
+                id="nombre"
+                name="nombre"
+                type="text"
+                autocomplete="name"
+                maxlength="120"
+                required
+                placeholder="¿Cómo te llamas?"
+              />
+            </div>
+            <div class="form-row">
+              <label for="correo">Correo electrónico *</label
+              ><input
+                id="correo"
+                name="email"
+                type="email"
+                autocomplete="email"
+                maxlength="190"
+                required
+                placeholder="nombre@empresa.com"
+              />
+            </div>
+            <div class="form-row">
+              <label for="servicio">¿Qué servicio te interesa? *</label
+              ><select id="servicio" name="servicio" required>
+                <option value="">Selecciona una opción</option>
+                <option>Diseño web</option>
+                <option>Desarrollo de aplicaciones web a medida</option>
+                <option>Consultoría tecnológica</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="mensaje">Cuéntame brevemente tu proyecto *</label
+              ><textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                maxlength="3000"
+                required
+                placeholder="¿Qué necesitas resolver o mejorar?"
+              ></textarea>
+            </div>
+            <div class="legal-consents">
+              <label class="consent">
+                <input
+                  type="checkbox"
+                  name="acepta_terminos"
+                  value="Sí"
+                  required
+                />
+                <span
+                  >He leído y acepto los
+                  <a
+                    href="legal/terminos.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Términos y condiciones</a
+                  >.</span
+                >
+              </label>
+              <label class="consent">
+                <input
+                  type="checkbox"
+                  name="acepta_privacidad"
+                  value="Sí"
+                  required
+                />
+                <span
+                  >He leído la
+                  <a
+                    href="legal/privacidad.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Política de privacidad</a
+                  >
+                  y consiento el tratamiento de los datos para gestionar mi
+                  consulta.</span
+                >
+              </label>
+            </div>
+            <button class="button button-primary submit-button" type="submit">
+              Enviar consulta <span>↗</span>
+            </button>
+            <p class="form-note">
+              Solo solicitamos los datos necesarios para responder tu consulta.
+              Consulta también nuestra
+              <a
+                href="legal/cookies.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Política de cookies</a
+              >
+              y
+              <a
+                href="legal/reembolsos.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Política de cancelaciones y reembolsos</a
+              >.
+            </p>
+            <p
+              id="formStatus"
+              class="form-status"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <a class="brand" href="#inicio"
+          ><img src="img/logoServerLE.jpg" alt="" /><span
+            >Server <strong>LaEstrella</strong></span
+          ></a
+        >
+        <p>Soluciones digitales para necesidades reales.</p>
+        <a href="#contacto">Conversemos <span>↗</span></a>
+      </div>
+      <div class="container footer-legal">
+        <a href="legal/terminos.html">Términos y condiciones</a>
+        <a href="legal/privacidad.html">Política de privacidad</a>
+        <a href="legal/cookies.html">Política de cookies</a>
+        <a href="legal/reembolsos.html">Cancelaciones y reembolsos</a>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year"></span> Server LaEstrella. Todos los derechos
+          reservados.</span
+        ><a href="#inicio">Volver arriba ↑</a>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/59160202107?text=Hola%20Server%20LaEstrella,%20me%20gustar%C3%ADa%20consultar%20sobre%20un%20proyecto."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Contactar por WhatsApp"
+      title="Escríbenos por WhatsApp"
+    >
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path
+          d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
+        />
+      </svg>
+    </a>
+  </body>
+</html>
